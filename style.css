@@ -10,7 +10,7 @@
 }
 
 .bg-blackjack {
-  background-image: url('/assets/images/bg-blackjack.jpg');
+  background-image: url('./public/assets/images/bg-blackjack.jpg');
   background-size: cover;
   background-position: center;   
 }
