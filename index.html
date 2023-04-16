@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Solitario 21</title>
+    <script type="module" crossorigin src="/assets/index-0f4780f1.js"></script>
+    <link rel="stylesheet" href="/assets/index-c045925f.css">
+  </head>
+  <body class="m-0 bg-blackjack text-white">
+    <div id="app"> 
+      <header>
+        <h1 class="text-center bg-gradient-to-r from-[#a90329] via-[#006268] to-[#6d0019] text-white p-8 text-2xl">SOLITARIO 21</h1>
+      </header>
+
+    <div class="mt-2">
+      <div id="div-botones" class="flex justify-center gap-6">
+          <button id="btn-nuevo" class="p-2 bg-gradient-to-t from-[#a90329] to-[#6d0019] rounded-md hover:bg-gradient-to-t hover:from-[#6d0019] hover:to-[#a90329] hover:transition">Nuevo Juego</button>
+          <button id="btn-pedir" class="p-2 bg-gradient-to-t from-[#f1e767] to-[#feb645] rounded-md hover:bg-gradient-to-t hover:from-[#feb645] hover:to-[#f1e767] text-gray-800 disabled:opacity-50 disabled:cursor-not-allowed">Pedir Carta</button>
+          <button id="btn-detener" class="p-2 bg-gradient-to-t from-[#f1e767] to-[#feb645] rounded-md hover:bg-gradient-to-t hover:from-[#feb645] hover:to-[#f1e767] text-gray-800 disabled:opacity-50 disabled:cursor-not-allowed">Detener</button>
+      </div>
+    </div>
+
+    <!-- CARTAS JUGADOR -->
+    <div class="container">
+      <div>
+          <h1 class="ml-6 mb-1 font-bold text-2xl">Jugador : <small class="text-[20px] bg-red-500 p-1.5 px-3 rounded-full">0</small></h1>
+          <div id="jugador-cartas" class="div-cartas flex h-52">
+          </div>
+      </div>
+    </div>
+
+    <!-- CARTAS COMPUTADOR -->
+    <div class="container mt-2">
+      <div>
+          <h1 class="ml-6 mb-1 font-bold text-2xl">Computador : <small class="text-[20px] bg-red-500 p-1.5 px-3 rounded-full">0</small></h1>
+          <div id="computadora-cartas" class="div-cartas flex h-52">
+          </div>
+      </div>
+    </div>
+  </div>
+
+    
+    
+  </body>
+</html>
